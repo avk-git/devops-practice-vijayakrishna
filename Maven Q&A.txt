@@ -1,0 +1,23 @@
+What are the different repositeries in Maven?
+ a)M2 Local repo
+ b)Central repo(apace maven .org)
+ c)Remote repo(nexus)
+
+What is Transitive Dependency?
+ Transitive Dependency means that if 'A' dependent on 'B' and 'B'dependent on 'C'then a depends on both B$Central
+ It may cause version mismatch issue in run time.
+
+Maven build life cycle ,Phase,Goal relation.
+ a)Maven build life cycle is the set of tasks that are excuted when maven build id run
+ b)Maven build life cycle goes through a set of stages they are called build phases.
+ c)A build phase is made up of a set  of goals. maven goals represents a specific task that contribute to the build and managing of a project.
+ 
+Maven Life Cycle.
+ 1)validate
+ 2)compile
+ 3)test
+ 4)package
+ 5)integration test 
+ 6)verify
+ 7)install
+ 8)deploy 
