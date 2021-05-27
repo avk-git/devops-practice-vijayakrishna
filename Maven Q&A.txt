@@ -21,3 +21,9 @@ Maven Life Cycle.
  6)verify
  7)install
  8)deploy 
+ 
+ Different folders in maven
+ a)Directory layout
+ b)Root directory
+ c)src/main directory
+ d)test directory
