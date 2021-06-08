@@ -1,0 +1,12 @@
+sudo yum install -y java-1.8.0-openjdk-devel
+curl --silent --location http://pkg.jenkins-ci.org/redhat/jenkins.repo | sudo tee /etc/yum.repos.d/jenkins.repos
+sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
+sudo yum install jenkins --nogpgcheck
+systemctl start jenkins
+systemctl enable jenkins
+systemctl status jenkins
+
+Copy publicIP of instance and paste in browser by adding :8080
+Ther it shows path for password. copt the path
+Cat (paste the path) for password.
+enter the password in browse.
